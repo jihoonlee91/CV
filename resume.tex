@@ -8,22 +8,33 @@
 \usepackage[left=0.40in,top=0.4in,right=0.75in,bottom=0.4in]{geometry}
 \usepackage{fontawesome}
 \usepackage{times}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=black,
+	pdftitle={Overleaf Example},
+	pdfpagemode=FullScreen,
+}
 
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 
 \name{Jihoon Lee}
 
-\address{\faEnvelope{leejihoon@snu.ac.kr}}
-\address{\faPhone(+82)10-2447-5082}
+\address{\faEnvelope\,{leejihoon@snu.ac.kr}}
+\address{\faPhone\,(+82)10-2447-5082}
+\address{\faHome\,\href{https://jihoon-lee.weebly.com}{https://jihoon-lee.weebly.com}}
 
 \begin{document}
 {\centerline{{Ph.D. Candidate}}} 
 
-\begin{rSection}{Education}
+\begin{rSection}{Education}\normalfont
 	
 {\bf Seoul National University, Seoul, Republic of Korea } \hfill {\em Sep 2014 - Present} 
-\\{ \textit {Ph.D. in Aerospace Engineering}} 
+\\{ \textit {M.S.-Ph.D. Integrated Course in Aerospace Engineering}} 
 \\{ \textit {Flight Dynamics and Control Lab}} 
 \\{ \textit {Supervisor: Youdan Kim}} 
 
@@ -41,37 +52,43 @@
 
 \end{rSection}
 
-\begin{rSection}{Skills}
+\begin{rSection}{Skill}\normalfont
 	
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
 Discipline: \ & Aerospace Engineering, Mechanical Engineering, Astronomy \\
 Expertise: \ & Control, Optimization, Modeling, Simulation, Motion Planning, Filtering \\
 Languages: \ & Korean (Native), English (Professional Working Proficiency) \\
 Programming: \ & MATLAB, Simulink, C, C++, Python, LaTeX \\
-Software: \ & LabVIEW, X-Plane, GMAT, SolidWorks, XFLR5, Fluent, STK \\
+Software: \ & MATLAB, Simulink, LabVIEW, X-Plane, GMAT, SolidWorks, XFLR5, Fluent, STK \\
 \end{tabular}
 
 \end{rSection}
 
-\begin{rSection}{Research Experience}
+\begin{rSection}{Research Experience}\normalfont
 
 {\bf Flight Dynamics and Control Lab, Seoul National University, Seoul, Republic of Korea} \hfill {\em Sep 2014 - Present} 
 \\{\textit{Research Assistant}}
 
 \end{rSection}
 
-\begin{rSection}{Publication}
+\begin{rSection}{Publication}\normalfont
 	\textbf{JOURNAL}
 	\begin{enumerate}\renewcommand{\labelenumi}{[J\theenumi]}
-		\item \textbf{Jihoon Lee}, Heein Park, Youdan Kim, Chan Gook Park, and Jae Hong Lee, "Multi-level Indoor Path Planning and Clearance-based Path Optimization for Search and Rescue Operations," \textit{IEEE Transactions on Systems, Man, and Cybernetics}, Under Review.
+		\item \color{gray} \textbf{Jihoon Lee}, Seong-hun Kim, Hanna Lee, Youdan Kim, "Performance-Oriented Gain Self-Scheduled Parameter-Varying Control of Asymmetric Variable-Span Morphing Unmanned Aerial Vehicle," In Preparation. \color{black}
+
+		\item \color{gray} \textbf{Jihoon Lee}, Heein Park, Youdan Kim, Chan Gook Park, and Jae Hong Lee, "Multi-level Indoor Path Planning and Clearance-based Path Optimization for Search and Rescue Operations," \textit{Fire Safety Journal}, Under Review. \color{black}
 		
 		\item Sangmin Lee, Hyeonggwan Kang, \textbf{Jihoon Lee}, and Youdan Kim, "Optimal Policy of Pitch-Hold Phase for Mine Detection of UAVs Based on MixedInteger Linear Programming," \textit{International Journal of Aeronautical and Space Sciences}, In Press.
+		\newline[DOI: \href{https://doi.org/10.1007/s42405-022-00454-7}{10.1007/s42405-022-00454-7}]
 		
-		\item \textbf{Jihoon Lee}, Suwon Lee, Youngjun Lee, Youdan Kim, Yongjun Heo, and Taedong Yoon, "Performance Veriﬁcation of a Target Tracking System with a Laser Rangeﬁnder," \textit{IEEE Access}, Vol. 9, 2021. 30993-31009. \newline[DOI: 10.1109/ACCESS.2021.3060061] 
+		\item \textbf{Jihoon Lee}, Suwon Lee, Youngjun Lee, Youdan Kim, Yongjun Heo, and Taedong Yoon, "Performance Veriﬁcation of a Target Tracking System with a Laser Rangeﬁnder," \textit{IEEE Access}, Vol. 9, 2021. 30993-31009. 
+		\newline[DOI: \href{https://doi.org/10.1109/ACCESS.2021.3060061}{10.1109/ACCESS.2021.3060061}] 
 		
-		\item \textbf{Jihoon Lee} and Youdan Kim, "Neural Network-Based Nonlinear Dynamic Inversion Control of Variable-Span Morphing Aircraft," \textit{Proceedings of the Institution of Mechanical Engineers, Part G: Journal of Aerospace Engineering}, Vol. 234, No. 10, 2020, pp. 1624-1637. \newline[DOI: 10.1177/0954410019846713]
+		\item \textbf{Jihoon Lee} and Youdan Kim, "Neural Network-Based Nonlinear Dynamic Inversion Control of Variable-Span Morphing Aircraft," \textit{Proceedings of the Institution of Mechanical Engineers, Part G: Journal of Aerospace Engineering}, Vol. 234, No. 10, 2020, pp. 1624-1637. 
+		\newline[DOI: \href{https://doi.org/10.1177/0954410019846713}{10.1177/0954410019846713}]
 		
-		\item Seokwon Lee, \textbf{Jihoon Lee}, Somang Lee, Hyunjin Choi, Youdan Kim, Seungkeun Kim, and Jinyoung Suk, "Sliding Mode Guidance and Control for UAV Carrier Landing," \textit{IEEE Transactions on Aerospace and Electronic Systems}, Vol. 55, No. 2, 2019, pp. 951-966. \newline[DOI: 10.1109/TAES.2018.2867259]
+		\item Seokwon Lee, \textbf{Jihoon Lee}, Somang Lee, Hyunjin Choi, Youdan Kim, Seungkeun Kim, and Jinyoung Suk, "Sliding Mode Guidance and Control for UAV Carrier Landing," \textit{IEEE Transactions on Aerospace and Electronic Systems}, Vol. 55, No. 2, 2019, pp. 951-966. 
+		\newline[DOI: \href{https://doi.org/10.1109/TAES.2018.2867259}{10.1109/TAES.2018.2867259}] 
 	\end{enumerate}\renewcommand{\labelenumi}{\theenumi.}
 	
 	\textbf{CONFERENCE}
@@ -79,38 +96,38 @@ Software: \ & LabVIEW, X-Plane, GMAT, SolidWorks, XFLR5, Fluent, STK \\
 		
 		\item Sangmin Lee, Hyeonggwan Kang, \textbf{Jihoon Lee}, and Youdan Kim, "Optimal Policy of Pitch-Hold Phase for Mine Detection of UAV based on Mixed-Integer Linear Programming," \textit{13th Asia-Pacific International Symposium on Aerospace Technology (APISAT 2021)}, Jeju, Korea, Nov. 2021. 
 		
-		\item Hyeonggwan Kang, Sangmin Lee, \textbf{Jihoon Lee}, Youdan Kim, Jinyoung Suk, and Seungkeun Kim, "Altitude Tracking of UAV with Pitch-Hold Constraint Based on Model Predictive Control for Mine Detection," \textit{21st International Conference on Control, Automation and Systems (ICCAS 2021)}, Jeju, Korea, Oct. 2021. \newline[DOI: 10.23919/ICCAS52745.2021.9649884]
+		\item Hyeonggwan Kang, Sangmin Lee, \textbf{Jihoon Lee}, Youdan Kim, Jinyoung Suk, and Seungkeun Kim, "Altitude Tracking of UAV with Pitch-Hold Constraint Based on Model Predictive Control for Mine Detection," \textit{21st International Conference on Control, Automation and Systems (ICCAS 2021)}, Jeju, Korea, Oct. 2021. \newline[DOI: 
+		\href{https://doi.org/10.23919/ICCAS52745.2021.9649884}{10.23919/ICCAS52745.2021.9649884}]
 		
 		\item \textbf{Jihoon Lee}, Seong-hun Kim, Seungyun Jung, Hanna Lee, and Youdan Kim, "Aircraft Autopilot Design Using Asymmetric Variable-Span Wing Morphing," \textit{32nd Congress of the International Council of the Aeronautical Sciences (ICAS 2021)}, Shanghai, China, Sep. 2021. 
 		
-		\item Seungyun Jung, \textbf{Jihoon Lee}, Seong-hun Kim, Hanna Lee, and Youdan Kim, "Disturbance Observer-Based Pitch Autopilot for Morphing UAV during Transition Phase," \textit{2020 AIAA Science and Technology Forum and Exposition (SciTech 2020)}, Orlando, FL, Jan. 2020. \newline[DOI: 10.2514/6.2020-1087]
+		\item Seungyun Jung, \textbf{Jihoon Lee}, Seong-hun Kim, Hanna Lee, and Youdan Kim, "Disturbance Observer-Based Pitch Autopilot for Morphing UAV during Transition Phase," \textit{2020 AIAA Science and Technology Forum and Exposition (SciTech 2020)}, Orlando, FL, Jan. 2020. 
+		\newline[DOI: \href{https://doi.org/10.2514/6.2020-1087}{10.2514/6.2020-1087}]
 		
 		\item \textbf{Jihoon Lee}, Seungyun Jung, Seong-hun Kim, Hanna Lee, and Youdan Kim, "Flight Control of Asymmetric Variable-Span Morphing Aircraft Using Nonlinear Dynamic Inversion," \textit{11th Asia-Pacific International Symposium on Aerospace Technology (APISAT 2019)}, Gold Coast, Australia, Dec. 2019. 
 	
-		\item Seong-hun Kim, \textbf{Jihoon Lee}, Seungyun Jung, Hanna Lee, and Youdan Kim, "Deep Neural Network-Based Feedback Control for Dynamic Soaring," \textit{21st IFAC Symposium on Automatic Control in Aerospace (ACA 2019)}, Cranfield, UK, Aug. 2019. \newline[DOI: 10.1016/j.ifacol.2019.11.079]
+		\item Seong-hun Kim, \textbf{Jihoon Lee}, Seungyun Jung, Hanna Lee, and Youdan Kim, "Deep Neural Network-Based Feedback Control for Dynamic Soaring," \textit{21st IFAC Symposium on Automatic Control in Aerospace (ACA 2019)}, Cranfield, UK, Aug. 2019. 
+		\newline[DOI: \href{https://doi.org/10.1016/j.ifacol.2019.11.079}{10.1016/j.ifacol.2019.11.079}]
 		
-		\item Hanna Lee, \textbf{Jihoon Lee}, Seong-hun Kim, Seungyun Jung, and Youdan Kim, "Adaptive Control Allocation-based Control Design for Non-affine Morphing Aircraft System," \textit{9th European Conference for Aeronautics and Space Sciences (EUCASS 2019)}, Madrid, Spain, Jul. 2019. \newline[DOI: 10.13009/EUCASS2019-163]
+		\item Hanna Lee, \textbf{Jihoon Lee}, Seong-hun Kim, Seungyun Jung, and Youdan Kim, "Adaptive Control Allocation-based Control Design for Non-affine Morphing Aircraft System," \textit{9th European Conference for Aeronautics and Space Sciences (EUCASS 2019)}, Madrid, Spain, Jul. 2019. \newline[DOI: \href{https://doi.org/10.13009/EUCASS2019-163}{10.13009/EUCASS2019-163}]
 		
-		\item \textbf{Jihoon Lee}, Seong-hun Kim, Seungyun Jung, Hanna Lee, and Youdan Kim, "Linear Parameter-Varying Control of Variable Span-Sweep Morphing Aircraft," \textit{Guidance, Navigation, and Control Conference, AIAA Science and Technology Forum and Exposition (SciTech 2019)}, San Diego, CA, USA, Jan. 2019. \newline[DOI: 10.2514/6.2019-0106]
+		\item \textbf{Jihoon Lee}, Seong-hun Kim, Seungyun Jung, Hanna Lee, and Youdan Kim, "Linear Parameter-Varying Control of Variable Span-Sweep Morphing Aircraft," \textit{Guidance, Navigation, and Control Conference, AIAA Science and Technology Forum and Exposition (SciTech 2019)}, San Diego, CA, USA, Jan. 2019. \newline[DOI: \href{https://doi.org/10.2514/6.2019-0106}{10.2514/6.2019-0106}]
 		
 		\item Hanna Lee, \textbf{Jihoon Lee}, Seong-hun Kim, Seungyun Jung, and Youdan Kim, "Control Design for Morphing Aircraft Based on Frequency-Apportioned Control Allocation," \textit{10th Asia-Pacific International Symposium on Aerospace Technology (APISAT 2018)}, Chengdu, China, Oct. 2018. 
 		
 		\item \textbf{Jihoon Lee}, and Youdan Kim, "Quasi-LPV Modeling and Parameter-dependent Optimal Control of Morphing Wing Aircraft," \textit{31st Congress of the International Council of the Aeronautical Sciences (ICAS 2018)}, Belo Horizonte, Brazil, Sep. 2018. 
 		
-		\item \textbf{Jihoon Lee}, Seong-hun Kim, Seungyun Jung, Hanna Lee, and Youdan Kim, "Sliding Mode Control Design for a Multidimensional Morphing UAV," \textit{6th European Control Conference (ECC 2018)}, Limassol, Cyprus, Jun. 2018. \newline[DOI: 10.23919/ECC.2018.8550259]
+		\item \textbf{Jihoon Lee}, Seong-hun Kim, Seungyun Jung, Hanna Lee, and Youdan Kim, "Sliding Mode Control Design for a Multidimensional Morphing UAV," \textit{6th European Control Conference (ECC 2018)}, Limassol, Cyprus, Jun. 2018. 
+		\newline[DOI: \href{https://doi.org/10.23919/ECC.2018.8550259}{10.23919/ECC.2018.8550259}]
 		
-		\item \textbf{Jihoon Lee}, and Youdan Kim, "Neural Network-Based Nonlinear Dynamic Inversion Control of Variable-Span Morphing Aircraft," \textit{8th European Conference for Aeronautics and Space Sciences (EUCASS 2017)}, Milan, Italy, Jul. 2017. \newline[DOI: 10.13009/EUCASS2017-195]
+		\item \textbf{Jihoon Lee}, and Youdan Kim, "Neural Network-Based Nonlinear Dynamic Inversion Control of Variable-Span Morphing Aircraft," \textit{8th European Conference for Aeronautics and Space Sciences (EUCASS 2017)}, Milan, Italy, Jul. 2017. 
+		\newline[DOI: \href{https://doi.org/10.13009/EUCASS2017-195}{10.13009/EUCASS2017-195}]
 		
 		\item \textbf{Jihoon Lee}, Seokwon Lee, Somang Lee, Youdan Kim, Jungha Park, Seungkeun Kim, and Jinyoung Suk, "Stochastic Approach to Risk Evaluation for UAV Landing on an Aircraft Carrier," \textit{7th Asia-Pacific International Symposium on Aerospace Technology (APISAT 2015)}, Cairns, Australia, Nov. 2015. 
 		
 		\item Somang Lee, \textbf{Jihoon Lee}, Seokwon Lee, Youdan Kim, Jinyoung Suk, and Seungkeun Kim, "A Study on Autonomous UAV Take-off and Landing on a Carrier," \textit{7th Asia-Pacific International Symposium on Aerospace Technology (APISAT 2015)}, Cairns, Australia, Nov. 2015. 
 	\end{enumerate}\renewcommand{\labelenumi}{\theenumi.}
-	
-	\textbf{NATIONAL JOURNAL}
-	\begin{enumerate}\renewcommand{\labelenumi}{[NJ\theenumi]}
-		\item Heein Park, \textbf{Jihoon Lee}, Youdan Kim, Jae Hong Lee, and Chan Gook Park, "Development of an Indoor Path Planning System for Search and Rescue Operations of the Firefighters," \textit{Journal of Positioning, Navigation, and Timing}, In Preparation.
-	\end{enumerate}\renewcommand{\labelenumi}{\theenumi.}
-	
+		
 	\textbf{NATIONAL CONFERENCE}
 	\begin{enumerate}\renewcommand{\labelenumi}{[NC\theenumi]}
 		\item \textbf{Jihoon Lee}, Hyeonggwan Kang, Sangmin Lee, Youdan Kim, Jinyoung Suk, Seungkeun Kim, "Control Surface Modeling and Control Authority Analysis for Longitudinal Motion of Control-Configured Vehicle," \textit{2021 KSAS Fall Conference (KSAS 2021F)}, Jeju, Korea, Nov. 2021.
@@ -156,45 +173,42 @@ Software: \ & LabVIEW, X-Plane, GMAT, SolidWorks, XFLR5, Fluent, STK \\
 \end{rSection}
 
 
-\begin{rSection}{Projects}
+\begin{rSection}{Projects}\normalfont
 
-{\textbf{Development of Ground Control and Communication System for VTOL Fixed-Wing} \hfill {\em May 2021 - Present} \\ \textbf{Drone}} 
-\\{\textit{ Agency for Defense Development (ADD)}}
+{\bf Development of Location System for Firefighters Based on Wireless Communication} \hfill {\em Jan 2021 - Dec 2022} 
+\\{\textit{ National Fire Agency}}
 \\{\textit{ Research Assistant}}
-%\\- xxx
-%\\- xxx
+\\- Path Planning System Development
 
-{\bf Development of Location System for Firefighters Based on Wireless Communication} \hfill {\em Jan 2021 - Present} 
-\\{\textit{ National Fire Agency (NFA)}}
+{\textbf{Development of Ground Control and Communication System for VTOL Fixed-Wing} \hfill {\em May 2021 - Feb 2022} \\ \textbf{Drone}} 
+\\{\textit{ Agency for Defense Development}}
 \\{\textit{ Research Assistant}}
-%\\- xxx
-%\\- xxx
+\\- Modeling
 
 {\bf Development of Target Tracking Algorithms} \hfill {\em Jan 2020 - Aug 2020} 
 \\{\textit{ LIG Nex1 Company Ltd.}}
 \\{\textit{ Research Assistant}}
-%\\- xxx
-%\\- xxx
+\\- Target Tracking System Development
+\\- Source Code Development
 
 {\bf Development of an SMPC Flap Module for Morphing Wings} \hfill {\em Jun 2016 - Dec 2020} 
-\\{\textit{ Ministry of Trade, Industry and Energy (MOTIE)}}
+\\{\textit{ Ministry of Trade, Industry and Energy}}
 \\{\textit{ Research Assistant}}
-%\\- xxx
-%\\- xxx
+\\- Flight Control System Development
+\\- Modeling
+\\- Simulator Development
 
 {\textbf{Development of Guidance, Navigation, and Control Algorithms and Corresponding} \hfill {\em Sep 2014 - Jun 2017} \\ \textbf{Source Code for Experimental Lunar Orbiter}}  
-\\{\textit{ Ministry of Science, ICT and Future Planning (MSIP)}}
+\\{\textit{ Ministry of Science, ICT and Future Planning}}
 \\{\textit{ Research Assistant}}
-%\\- xxx
-%\\- xxx
+\\- Attitude Control System Development
+\\- Mission Design
 
 {\bf Guidance/Control Study for Take-off and Landing on a Ship} \hfill {\em Nov 2014 - Dec 2015} 
-\\{\textit{ Agency for Defense Development (ADD)}}
+\\{\textit{ Agency for Defense Development}}
 \\{\textit{ Research Assistant}}
-%\\- xxx
-%\\- xxx
-
-
+\\- Decision Making System Development
+\\- Simulator Development
 
 \end{rSection}
 
@@ -226,12 +240,12 @@ Software: \ & LabVIEW, X-Plane, GMAT, SolidWorks, XFLR5, Fluent, STK \\
 %----------------------------------------------------------------------------------------
 %	EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
-\begin{rSection}{Experience}
+\begin{rSection}{Experience}\normalfont
 
 {\bf International Workshop on Space Development: Theory and Practice (SpaceDTP)} \hfill {\em July 18, 2018 - July 29, 2018} 
 \\{\textit{ Hosted by the Youth Space Center, Bauman Moscow State Technical University}}
 \\{\textit{ Supported by the Korea-Russia Science and Technology Cooperation Center (KORUSTEC) through the 2018 Korea-Russia Rising Researcher Training Program}}
-\\{\textit{ Attended as a Korean delegate}}
+\\{\textit{ Invited as a Korean delegate}}
 
 \end{rSection}
 
@@ -251,8 +265,8 @@ Software: \ & LabVIEW, X-Plane, GMAT, SolidWorks, XFLR5, Fluent, STK \\
 %
 %
 %\end{rSection}
-\begin{rSection}{Award}
-{\bf Grand Prize (Award by the Minister of Land, Infrastructure and Transport)} \hfill {\em Feb 2016} \\ 
+\begin{rSection}{Award}\normalfont
+{\bf Grand Prize (Awarded by the Minister of Land, Infrastructure and Transport)} \hfill {\em Feb 2016} \\ 
 \textit{3rd Aviation-Specialized University Conference, Mayfield Hotel, Seoul, Republic of Korea} \\
 \textit{Title: Risk Evaluation Scheme in Automatic Aircraft Carrier Landing Using Artificial Neural Network}
 
